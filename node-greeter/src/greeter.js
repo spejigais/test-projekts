@@ -15,6 +15,11 @@ if (isNaN(year)) {
 const currentYear = new Date().getFullYear();
 const age = currentYear - year;
 
+if (age < 0) {
+  console.log('Kļūda: dzimšanas gads nevar būt nākotnē.');
+  process.exit(1);
+}
+
 // Latviešu valodas forma
 let yearWord = 'gadi';
 if (age % 10 === 1 && age % 100 !== 11) {
