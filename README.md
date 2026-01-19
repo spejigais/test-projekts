@@ -12,3 +12,6 @@ Node.js skripts, kas parāda Hello, World!, datumu, laiku, node,js versiju un op
 ## Palaišana
 Projekta mapē "test-projekts" jāatver fails "hello.js"
 Terminālī jāieraksta "node hello.js"
+
+
+This project was created as a learning exercise for Node.js and Git basics.
