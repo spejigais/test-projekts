@@ -21,4 +21,5 @@ if (age % 10 === 1 && age % 100 !== 11) {
   yearWord = 'gads';
 }
 
-console.log('Sveiks, ' + name + '! Tev ir ' + age + ' ' + yearWord + '.');
+const message = 'Sveiks, ' + name + '! Tev ir ' + age + ' ' + yearWord + '.';
+console.log(message);
