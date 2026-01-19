@@ -3,14 +3,14 @@ Node.js skripts, kas pieņem vārdu un dzimšanas gadu kā komandrindas argument
 aprēķina vecumu un izvada personalizētu sveicienu latviešu valodā.
 
 ## Palaišana
-Projekta mapē "test-projekts" jāatver fails "greeter.js"
+Projekta mapē "test-projekts/node-greeter/src" jāatver fails "greeter.js"
 Terminālī jāieraksta "node greeter.js Tom 1994"
 
 # Node Hello
 Node.js skripts, kas parāda Hello, World!, datumu, laiku, node,js versiju un operētājsistēmu.
 
 ## Palaišana
-Projekta mapē "test-projekts" jāatver fails "hello.js"
+Projekta mapē "test-projekts/node-greeter/src" jāatver fails "hello.js"
 Terminālī jāieraksta "node hello.js"
 
 
