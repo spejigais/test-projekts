@@ -25,5 +25,14 @@ Terminālī jāieraksta " node temperature.js <temperatūra> <C|F>"
 C — Celsija grādi
 F — Fārenheita grādi
 
+# Interaktīvā programma ar readline
+Node.js skripts, kas izmanto `readline` moduli. Kad tiek palaists skripts, tiek uzdoti 3 secīgi jautājumi un beigās tiek izvadīts kopsavilkums.
+Kā tevi sauc?
+Cik tev ir gadi?
+No kuras pilsētas tu esi?
+
+## Palaišana
+Projekta mapē "test-projekts/node-greeter/src" jāatver fails "interactive.js"
+Terminālī jāieraksta "node interactive.js"
 
 This project was created as a learning exercise for Node.js and Git basics.
