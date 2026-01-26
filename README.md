@@ -1,38 +1,65 @@
 # Node Greeter
+
 Node.js skripts, kas pieņem vārdu un dzimšanas gadu kā komandrindas argumentus,
 aprēķina vecumu un izvada personalizētu sveicienu latviešu valodā.
 
 ## Palaišana
+
 Projekta mapē "test-projekts/node-greeter/src" jāatver fails "greeter.js"
-Terminālī jāieraksta "node greeter.js Tom 1994"
+Terminālī jāieraksta:
+
+    node greeter.js Tom 1994
+
+---
 
 # Node Hello
+
 Node.js skripts, kas parāda Hello, World!, datumu, laiku, node,js versiju un operētājsistēmu.
 
 ## Palaišana
+
 Projekta mapē "test-projekts/node-greeter/src" jāatver fails "hello.js"
-Terminālī jāieraksta "node hello.js"
+Terminālī jāieraksta:
+
+    node hello.js
+
+---
 
 # Node Temperatūras konvertors
+
 Node.js skripts, kas pēc konkrēta skripta ievadīšanas izvada grādus C, pārveido tos par grādiem F, un otrādi.
 
 ## Palaišana
+
 Projekta mapē "test-projekts/node-greeter/src" jāatver fails "temperature.js"
-Terminālī jāieraksta " node temperature.js <temperatūra> <C|F>"
+Terminālī jāieraksta:
+
+    node temperature.js <temperatūra> <C|F>
 
 <temperatūra> ir skaitlis (piemēram: 100, 32)
 <C|F> norāda mērvienību:
-C — Celsija grādi
-F — Fārenheita grādi
+
+- C — Celsija grādi
+- F — Fārenheita grādi
+
+---
 
 # Interaktīvā programma ar readline
-Node.js skripts, kas izmanto `readline` moduli. Kad tiek palaists skripts, tiek uzdoti 3 secīgi jautājumi un beigās tiek izvadīts kopsavilkums.
-Kā tevi sauc?
-Cik tev ir gadi?
-No kuras pilsētas tu esi?
+
+Node.js skripts, kas izmanto `readline` moduli. Kad tiek palaists skripts,
+tiek uzdoti 3 secīgi jautājumi un beigās tiek izvadīts kopsavilkums.
+
+- Kā tevi sauc?
+- Cik tev ir gadi?
+- No kuras pilsētas tu esi?
 
 ## Palaišana
+
 Projekta mapē "test-projekts/node-greeter/src" jāatver fails "interactive.js"
-Terminālī jāieraksta "node interactive.js"
+Terminālī jāieraksta:
+
+    node interactive.js
+
+---
 
 This project was created as a learning exercise for Node.js and Git basics.
