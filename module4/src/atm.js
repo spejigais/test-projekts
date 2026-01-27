@@ -10,14 +10,14 @@ if (sum > 10000) {
   // END
   process.exit(0);
 }
-
+// Vienkāršota validācija apvienojot "Invalid amout" un "Amount cannot be dispensed"
 if (sum <= 0 || sum % 5 !== 0) {
   console.log("Invalid or unsupported amount");
   process.exit(0);
 }
 
 // n50 = sum DIV 50
-let n50 = Math.floor(sum / 50);
+let n50 = Math.floor(sum / 50); // .floor noapaļo skaitli uz leju līdz tuvākajam vesalajam skaitlim
 // sum = sum MOD 50
 sum = sum % 50;
 
