@@ -9,6 +9,11 @@ const B = Number(process.argv[3]);
 // ievadīt C
 const C = Number(process.argv[4]);
 
+// VALIDĀCIJA (uzlabojums pēc sākotnējā algoritma)
+if (Number.isNaN(A) || Number.isNaN(B) || Number.isNaN(C)) {
+  console.log('Lietošana: node max-of-3.js <A> <B> <C>');
+  process.exit(1);
+}
 
 let lielākais;
 
