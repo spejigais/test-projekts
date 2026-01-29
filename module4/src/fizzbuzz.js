@@ -1,3 +1,5 @@
+// Ievade fizbuzz.js <skaitlis>
+
 // Paņem N no komandrindas
 const N = Number(process.argv[2]);
 
